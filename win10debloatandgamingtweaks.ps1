@@ -32,13 +32,13 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"InstallMVC", #DaddyMadu install Microsoft Visualstudio required for HPET service!
 	"Install7Zip",
-	#"InstallNotepadplusplus",
+	"InstallNotepadplusplus",
 	#"InstallIrfanview",
-	#"InstallVLC",
+	"InstallVLC",
 	#"InstallSumatra",
-	#"InstallChrome",
-	"InstallChocoUpdates",
-	"EnableUlimatePower",    # DaddyMadu don't change order it will break other functions! just disable if you want with #
+	"InstallChrome",
+	#"InstallChocoUpdates",
+	#"EnableUlimatePower",    # DaddyMadu don't change order it will break other functions! just disable if you want with #
 	# "ChangeDefaultApps", # Removed due to issues with steam and resetting default apps
 	
 	### DaddyMadu Windows Defender Settings! Don't Change Order Just Disable with # If You Don't want it ###
@@ -123,7 +123,7 @@ $tweaks = @(
 	"Disableshortcutword",
 	"DisableMouseKKS",
 	"DisableTransparency",
-	"TurnOffSafeSearch",
+	#"TurnOffSafeSearch",
 	"DisableCloudSearch",
 	"DisableDeviceHistory",
 	"DisableRemoteAssistance",
@@ -197,7 +197,7 @@ $tweaks = @(
 	"SVCHostTweak",
 
 	### Unpinning ###
-	"UnpinStartMenuTiles",
+	#"UnpinStartMenuTiles",
 
         ### DaddyMadu Quality Of Life Tweaks ###
 	"QOL",
